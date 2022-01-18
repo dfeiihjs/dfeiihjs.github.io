@@ -1,10 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <head><link rel="stylesheet" href="styles.css"></head>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
 <body>
     <script src="https://cfstatic.p3d.in/embed-api/v2/p3d-embed-api.js"></script>
+    <iframe allowfullscreen width="100%" height="1000px" loading="lazy" frameborder="0" src="https://p3d.in/e/tBHwV+api+load" id="p3d-embed" onload="onMyFrameLoad(this)"></iframe>
+    
+    <div id="customHotspot">
+        <h2 id="hotspot-title">Title</h2>
+        <p id="hotspot-body">Description</p>
+        <div id="hotspot-logos">
+            <div id="hotspot-rn92q">
+                <a href="" target="_new"><img  src="https://bilelektra.fi/wp-content/uploads/2012/09/Ebersp%C3%A4cher-logo.jpg" /></a>
+                <a href="" target="_new"><img  src="https://bilelektra.fi/wp-content/uploads/2012/09/Ebersp%C3%A4cher-logo.jpg" /></a>
+            </div>
+            <div id="hotspot-snuir"> 
+            </div>
+            <div id="hotspot-vyiq8">
+            </div>
+            <div id="hotspot-ll4r5">
+            </div>
+            <div id="hotspot-kbnuj">
+            </div>
+            <div id="hotspot-kevv4">
+            </div>
+            <div id="hotspot-lo19a">
+            </div>         
+        </div>
+    </div>
 
-    <iframe allowfullscreen width="100%" height="1000px" loading="lazy" frameborder="0" src="https://p3d.in/e/tBHwV" id="p3d-embed"></iframe>
-  
+    <script>
+        const p3d = new P3dEmbedApi(document.getElementById('p3d-embed'));
+        let activeHotspot;
+
+        p3d.onHotspotSelected((selectedHotspot) => {
+            // show last selected hotspot that we did hide
+            if(activeHotspot != undefined){
+                activeHotspot.isVisible = true;
+                // hide logos
+                let logos = document.getElementById(activeHotspot.id);
+                if( logos != undefined ){
+                    logos.style.display = "none";
+                }
+            }
+            
+            // set new and hide it
+            activeHotspot = selectedHotspot;
+            selectedHotspot.isVisible = false;
+
+            // set custom hotspot title
+            document.getElementById('hotspot-title').textContent = selectedHotspot.title;
+
+            // description
+            document.getElementById('hotspot-body').textContent = selectedHotspot.description;
+    
+            // show logos
+            console.log(selectedHotspot.id);
+            let logodiv = document.getElementById(selectedHotspot.id);
+            if( logodiv != undefined ){
+                document.getElementById(selectedHotspot.id).style.display = "block";
+            }
+
+            // show
+            document.getElementById('customHotspot').style.display = "block";
+                        
+            // get position if needed
+            // selectedHotspot.getScreenCoordinates().then((resp) => {
+                // console.log('Hotspot is at', resp.x, resp.y, 'pixels');
+            // });
+        });
+
+        function onMyFrameLoad(){} // iframe has loaded
+    </script>
+
 </body>
 </html>

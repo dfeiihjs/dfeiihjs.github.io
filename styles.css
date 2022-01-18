@@ -13,10 +13,22 @@
     cursor: pointer;
 }
 
-.parsed-link
-{
-  /*background: transparent url("Knorr_Bremse.jpg") no-repeat right center;
-  display: block;
-  width: 100px;*/
-  color: red !important;
+#customHotspot {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 400px;
+  color: #fff;
+  background-color: rgba(0,0,0,0.8);
+  padding: 1em;
+}
+
+#hotspot-logos img{
+  max-width: 100px;
+  height: auto;
+}
+
+#hotspot-logos div{
+  display: none;
 }
