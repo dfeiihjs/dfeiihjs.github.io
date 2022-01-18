@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 
-#p3d-embed > #hotspot-kbnuj > div > div.hotspot-description > p > a:nth-child(4)
+.parsed-link
 {
   /*background: transparent url("Knorr_Bremse.jpg") no-repeat right center;
   display: block;
