@@ -22,6 +22,7 @@
   color: #fff;
   background-color: rgba(0,0,0,0.8);
   padding: 1em;
+  border-radius: 5%;
 }
 
 #hotspot-logos img {
