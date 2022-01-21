@@ -16,14 +16,20 @@
 #customHotspot {
   display: none;
   position: absolute;
+  z-index: 10;
   top: 20px;
   left: 50px;
-  width: 350px;
+  width: 310px;
   color: #fff;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.75);
   padding: 1em;
   border-radius: 5px;
   font-family: Arial, Helvetica, sans-serif
+}
+
+#hotspot-title{
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
 
 #hotspot-logos img {
