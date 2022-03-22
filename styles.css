@@ -1,5 +1,5 @@
 #p3d-embed {
-    position: fixed;
+    /*position: fixed;*/
     width: 800px;
     height: 500px;
     top: 0;
@@ -13,13 +13,13 @@
     cursor: pointer;
 }
 
-iframe {
+/*iframe {
   pointer-events: none;
 }
 
 iframe:active {
   pointer-events: auto;
-}
+}*/
 
 #customHotspot {
   display: none;
