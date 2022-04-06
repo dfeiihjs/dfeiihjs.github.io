@@ -13,10 +13,6 @@
   cursor: pointer;
 }
 
-#scroll_link {
-  z-index: 10;
-}
-
 /*iframe {
   pointer-events: none;
 }
