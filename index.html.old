@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <script src="https://cfstatic.p3d.in/embed-api/v2/p3d-embed-api.js"></script>
+    <iframe loading="lazy" frameborder="0" src="https://p3d.in/e/tBHwV+api+load+controls" id="p3d-embed" seamless onload="onMyFrameLoad(this)">
+    </iframe>
+
+    <div id="customHotspot">
+        <h2 id="hotspot-title">Title</h2>
+        <p id="hotspot-body">Description</p>
+        <div id="hotspot-logos">
+
+            <!-- Sammutusjärjestelmät -->
+            <div id="hotspot-muy2x">
+                <p>Meiltä saat kestävät ja toimintavarmat sammutusjärjestelmät</p>
+                <a href="https://www.dafo.se" target="_blank"><img  src="logos\Dafo.jpg" /></a>
+                <a href="https://fogmaker.com" target="_blank"><img  src="logos\Fogmaker.jpg" /></a>
+            </div>
+
+            <!-- Moottori -->
+            <div id="hotspot-v7ro2">
+                <p>Meiltä löydät kattavan valikoiman moottoreiden eri varaosia sekä käyttövalmiita vaihtomoottoreita mm. näiltä valmistajilta:</p>
+                <a href="https://www.frimatec.de/en" target="_blank"><img  src="logos\Frimatec.jpg" /></a>
+                <a href="https://www.cummins.com" target="_blank"><img  src="logos\Cummins.jpg" /></a>
+                <a href="https://www.victorreinz.com/EN/Home.aspx?region" target="_blank"><img  src="logos\Victor_Reinz.jpg" /></a>
+                <a href="https://www.loctite.com/loctite-location-selector.html" target="_blank"><img  src="logos\Loctite.jpg" /></a>
+                <a href="https://www.daycoaftermarket.com/en" target="_blank"><img  src="logos\Dayco.jpg" /></a>
+                <a href="https://www.optibelt.com/en/home" target="_blank"><img  src="logos\Optibelt.jpg" /></a>
+                <a href="https://www.bosch.com/products-and-services/mobility" target="_blank"><img  src="logos\Bosch.jpg" /></a>
+                <a href="https://www.delphiautoparts.com/gbr/en" target="_blank"><img  src="logos\Delphi.jpg" /></a>
+                <a href="https://ava-cooling.com" target="_blank"><img  src="logos\Ava_Cooling.jpg" /></a>
+                <a href="https://fennosteel.com" target="_blank"><img  src="logos\FennoSteel.jpg" /></a>
+                <a href="https://www.dinex.net" target="_blank"><img  src="logos\Dinex.jpg" /></a>
+                <a href="https://www.fleetguard-filtrum.com" target="_blank"><img  src="logos\Fleetguard.jpg" /></a>
+                <a href="https://www.hengst.com/en/online-catalog" target="_blank"><img  src="logos\Hengst.jpg" /></a>
+                <a href="https://catalog.mann-filter.com/EU/eng" target="_blank"><img  src="logos\Mann_filter.jpg" /></a>
+                <a href="https://www.mahle.com" target="_blank"><img  src="logos\Mahle.jpg" /></a>
+                <a href="https://nissens.com" target="_blank"><img  src="logos\Nissens.jpg" /></a>
+                <a href="https://www.gates.com/us/en/industries/automotive.html" target="_blank"><img  src="logos\Gates.jpg" /></a>
+                <a href="http://www.myholsetturbo.com" target="_blank"><img  src="logos\Holset.jpg" /></a>
+                <a href="https://www.garrettmotion.com/racing-and-performance/performance-turbos" target="_blank"><img  src="logos\Garrett.jpg" /></a>
+                <a href="https://www.mitsubishielectric.com/bu/automotive" target="_blank"><img  src="logos\Mitsubishi.jpg" /></a>
+            </div>
+
+            <!-- Sähköjärjestelmät -->
+            <div id="hotspot-vyiq8">
+                <p>Meiltä löydät kattavan valimoiman sähköjärjestelmän varasosia mm. näiltä valmistajilta:</p>
+                <a href="https://www.valeo.com/" target="_blank"><img  src="logos\Valeo.jpg" /></a>
+                <a href="https://www.mitsubishielectric.com/bu/automotive/" target="_blank"><img  src="logos\Mitsubishi.jpg" /></a>
+                <a href="https://www.bosch.com/products-and-services/mobility/" target="_blank"><img  src="logos\Bosch.jpg" /></a>
+                <a href="https://www.varta-automotive.fi/fi-fi" target="_blank"><img  src="logos\Varta.jpg" /></a>
+                <a href="https://www.prestolite.com/" target="_blank"><img  src="logos\Prestolite.jpg" /></a>
+                <a href="https://www.lucasautomotive.com/en/" target="_blank"><img  src="logos\Lucas.jpg" /></a>
+                <a href="https://www.defa.com/fi/" target="_blank"><img  src="logos\Defa.jpg" /></a>
+            </div>
+
+            <!-- Voimansiirto -->
+            <div id="hotspot-zrx1q">
+                <p>Meiltä varaosat luotettavaan voimansiirtoon mm. näiltä valmistajilta:</p>
+                <a href="https://www.valeo.com/" target="_blank"><img  src="logos\Valeo.jpg" /></a>
+                <a href="https://aftermarket.zf.com/go/en/sachs/home/" target="_blank"><img  src="logos\Sachs.jpg" /></a>
+                <a href="https://www.dana.com/" target="_blank"><img  src="logos\Dana.jpg" /></a>
+                <a href="https://www.cei.it/" target="_blank"><img  src="logos\CEI.jpg" /></a>
+                <a href="https://spicerparts.com/en-emear/" target="_blank"><img  src="logos\Spicer.jpg" /></a>
+                <a href="https://www.kongsbergautomotive.com/" target="_blank"><img  src="logos\Kongsberg.jpg" /></a>
+            </div>
+
+            <!-- Jarrujärjestelmät -->
+            <div id="hotspot-kbnuj">
+                <p>Meiltä löydät turvallisen pysäyttävää jarruvoimaa mm. näiltä valmistajilta:</p>
+                <a href="https://www.knorr-bremsecvs.com/en/" target="_blank"><img  src="logos\Knorr_Bremse.jpg" /></a>
+                <a href="https://www.meritor.com/" target="_blank"><img  src="logos\Meritor.jpg" /></a>
+                <a href="https://www.wabco-auto.com/emea/home" target="_blank"><img  src="logos\Wabco.jpg" /></a>
+                <a href="http://winnard.co.uk/" target="_blank"><img  src="logos\Winnard.jpg" /></a>
+                <a href="https://www.trwaftermarket.com/en/" target="_blank"><img  src="logos\TRW.jpg" /></a>
+                <a href="https://www.haldex.com/en/Europe/" target="_blank"><img  src="logos\Haldex.jpg" /></a>
+            </div>
+
+            <!-- Ohjaus ja pyörän tuenta -->
+            <div id="hotspot-lo19a">
+                <p>Tarjoamme varaosia tarkkaan ohjautuvuuteen ja luotettavaan pyörän tuentaan mm. näiltä valmistajilta:</p>
+                <a href="https://www.trwaftermarket.com/en/" target="_blank"><img  src="logos\TRW.jpg" /></a>
+                <a href="https://aftermarket.zf.com/go/en/lemfoerder/home/" target="_blank"><img  src="logos\Lemforder.jpg" /></a>
+                <a href="https://www.dana.com/" target="_blank"><img  src="logos\Dana.jpg" /></a>
+                <a href="https://www.febi.com/en/" target="_blank"><img  src="logos\Febi_Bilstein.jpg" /></a>
+            </div>
+
+            <!-- Runko, jouset, vaimennus ja pyörät -->
+            <div id="hotspot-ll4r5">
+                <p>Matka jatkuu kauttamme laadukkaasti mm. näiden valmistajien varaosilla:</p>
+                <a href="https://www.valeo.com/" target="_blank"><img  src="logos\Valeo.jpg" /></a>
+                <a href="https://aftermarket.zf.com/go/en/sachs/home/" target="_blank"><img  src="logos\Sachs.jpg" /></a>
+                <a href="https://www.trwaftermarket.com/en/" target="_blank"><img  src="logos\TRW.jpg" /></a>
+                <a href="https://www.dana.com/" target="_blank"><img  src="logos\Dana.jpg" /></a>
+                <a href="https://www.cei.it/" target="_blank"><img  src="logos\CEI.jpg" /></a>
+                <a href="https://www.fersa.com/en" target="_blank"><img  src="logos\Fersa.jpg" /></a>
+                <a href="https://www.timken.com/" target="_blank"><img  src="logos\Timken.jpg" /></a>
+                <a href="https://www.loctite.com/loctite-location-selector.html" target="_blank"><img  src="logos\Loctite.jpg" /></a>
+                <a href="https://www.skf.com/fi" target="_blank"><img  src="logos\SKF.jpg" /></a>
+                <img  src="logos\INA.jpg" />
+                <a href="https://www.fagbearing.cc/" target="_blank"><img  src="logos\FAG.jpg" /></a>
+            </div>
+
+            <!-- Tuuli- ja kilpilasit -->
+            <div id="hotspot-kevv4">
+                <p>Tarjoamme kattavan lasimalliston hyvään näkyvyyteen, ammattimaista asennusta unohtamatta.</p>
+                <a href="https://www.pilkington.com/fi-fi/fi" target="_blank"><img  src="logos\Pilkington.jpg" /></a>
+                <img  src="logos\Saint_Gobain.jpg" />
+                <a href="https://finnlamex.fi/" target="_blank"><img  src="logos\Finn_Lamex.jpg" /></a>
+                <a href="https://jaakko-tuote.fi/" target="_blank"><img  src="logos\Jaakko-tuote.jpg" /></a>
+            </div>
+
+            <!-- Sivu-, taka- ja ovilasit -->
+            <div id="hotspot-rn92q">
+                <p>Varmista hyvä näkyvyys suunnasta riippumatta mm. näiden valmistajien varaosilla:</p>
+                <a href="https://www.pilkington.com/fi-fi/fi" target="_blank"><img  src="logos\Pilkington.jpg" /></a>
+                <img  src="logos\Saint_Gobain.jpg" />
+                <a href="https://jaakko-tuote.fi/" target="_blank"><img  src="logos\Jaakko-tuote.jpg" /></a>
+            </div>
+
+            <!-- Korin sähköosat -->
+            <div id="hotspot-dyj2l">
+                <p>Turvallista matkaa ja näkyvyyttä mm. näiden valmistajien varaosilla:</p>
+                <a href="https://www.hella.com/hella-com/index.html" target="_blank"><img  src="logos\Hella.jpg" /></a>
+                <a href="https://www.osram.com/cb/" target="_blank"><img  src="logos\Osram.jpg" /></a>
+                <a href="http://www.matador.co.uk/" target="_blank"><img  src="logos\Matador.jpg" /></a>
+                <a href="https://www.doga.es/" target="_blank"><img  src="logos\Doga.jpg" /></a>
+                <img  src="logos\SWF.jpg" /></a>
+                <a href="https://www.valeo.com/" target="_blank"><img  src="logos\Valeo.jpg" /></a>
+                <a href="http://www.depoautolamp.com/index_en.php" target="_blank"><img  src="logos\Depo.jpg" /></a>
+                <a href="https://www.waiglobal.com/" target="_blank"><img  src="logos\WAI.jpg" /></a>
+                <img  src="logos\Shurflo.jpg" /></a>
+            </div>
+
+            <!-- Koriosat -->
+            <div id="hotspot-snuir">
+                <p>Lisää elinkaarta kuljetuskalustolle saat meiltä mm. näiden valmistajien varaosilla:</p>
+                <a href="https://www.mekra.de/en" target="_blank"><img  src="logos\Mekra_Lang.jpg" /></a>
+                <a href="https://www.henkel-adhesives.com/us/en/about/our-brands/teroson.html" target="_blank"><img  src="logos\Teroson.jpg" /></a>
+                <a href="https://www.primaautomotive.it/en" target="_blank"><img  src="logos\Prima.jpg" /></a>
+                <a href="https://isri.nl/en" target="_blank"><img  src="logos\Isri.jpg" /></a>
+                <a href="https://www.grammer.com/en/products-markets/automotive.html" target="_blank"><img  src="logos\Grammer.jpg" /></a>
+                <a href="https://www.happich.de/en" target="_blank"><img  src="logos\Happich.jpg" /></a>
+            </div>
+
+            <!-- Ilmastointi ja lämmitys -->
+            <div id="hotspot-b4gk5">
+                <p>Meiltä saat varaosat matkustusmukavuuden varmistamiseksi kelistä ja ulkolämpötilasta riippumatta.</p>
+                <a href="https://www.webasto-comfort.com/en-uk/" target="_blank"><img  src="logos\Webasto.jpg" /></a>
+                <a href="https://www.valeo.com/" target="_blank"><img  src="logos\Valeo.jpg" /></a>
+                <a href="http://sutrak.com.tr/en" target="_blank"><img  src="logos\Sutrak.jpg" /></a>
+                <a href="https://www.eberspaecher-finland.com/en/" target="_blank"><img  src="logos\Eberspacher.jpg" /></a>
+                <a href="https://www.mcc-hvac.com/?cont=EU" target="_blank"><img  src="logos\MCC.jpg" /></a>
+                <a href="https://www.burkert.co.uk/en" target="_blank"><img  src="logos\Burkert.jpg" /></a>
+                <img  src="logos\UWE.jpg" /></a>
+                <a href="https://www.aurora-eos.com/en/" target="_blank"><img  src="logos\Aurora.jpg" /></a>
+                <a href="https://www.spalautomotive.it/" target="_blank"><img  src="logos\Spal.jpg" /></a>
+                <a href="https://www.konvekta.de/en/start/" target="_blank"><img  src="logos\Konvekta.jpg" /></a>
+                <a href="https://bock.de/en" target="_blank"><img  src="logos\Bock.jpg" /></a>
+                <a href="https://www.stroco.dk/en/" target="_blank"><img  src="logos\Stroco.jpg" /></a>
+                <!--<a href="" target="_blank"><img  src="" /></a>-->
+                <a href="https://ava-cooling.com/" target="_blank"><img  src="logos\Ava_Cooling.jpg" /></a>
+                <a href="https://www.danfoss.com/fi-fi/" target="_blank"><img  src="logos\Danfoss.jpg" /></a>
+                <a href="https://www.fleetguard-filtrum.com/" target="_blank"><img  src="logos\Fleetguard.jpg" /></a>
+                <a href="https://www.hengst.com/en/online-catalog/" target="_blank"><img  src="logos\Hengst.jpg" /></a>
+                <a href="https://catalog.mann-filter.com/EU/eng" target="_blank"><img  src="logos\Mann_filter.jpg   " /></a>
+                <img  src="logos\GEA.jpg" /></a>
+            </div>          
+        </div>
+    </div>
+    <script>
+        const p3d = new P3dEmbedApi(document.getElementById('p3d-embed'));
+        let activeHotspot;
+
+        p3d.onHotspotSelected((selectedHotspot) => {
+            if(selectedHotspot){
+                console.log(selectedHotspot); 
+            
+                // show last selected hotspot that we did hide
+                if(activeHotspot != undefined){
+                    activeHotspot.isVisible = true;
+                    // hide logos
+                    let logos = document.getElementById(activeHotspot.id);
+                    if( logos != undefined ){
+                        logos.style.display = "none";
+                    }
+                }
+
+                // set new and hide it
+                activeHotspot = selectedHotspot;
+                selectedHotspot.isVisible = false;
+
+                // set custom hotspot title
+                document.getElementById('hotspot-title').textContent = selectedHotspot.title;
+
+                // description
+                document.getElementById('hotspot-body').textContent = selectedHotspot.description;
+        
+                // show logos
+                let logodiv = document.getElementById(selectedHotspot.id);
+                if( logodiv != undefined ){
+                    document.getElementById(selectedHotspot.id).style.display = "block";
+                }
+
+                // show
+                document.getElementById('customHotspot').style.display = "block";
+                
+                // get position if needed
+                // selectedHotspot.getScreenCoordinates().then((resp) => {
+                    // console.log('Hotspot is at', resp.x, resp.y, 'pixels');
+                // });
+            } 
+            else {
+                // Clicked someplace else
+                document.getElementById('customHotspot').style.display = "none";
+                activeHotspot.isVisible = true; 
+            }
+        });
+
+        function onMyFrameLoad(){} // iframe has loaded
+    </script>
+
+</body>
+</html>
